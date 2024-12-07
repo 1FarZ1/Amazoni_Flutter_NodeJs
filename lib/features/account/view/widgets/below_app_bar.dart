@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../core/constant/constants.dart';
-
 class BelowAppBar extends ConsumerWidget {
   const BelowAppBar({super.key});
 

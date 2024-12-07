@@ -13,7 +13,6 @@ let getCategoryProducts = async (req, res) => {
 }
 let getSearchProducts = async (req, res) => {
     try {  
-
         const searchQuery = req.query.searchQuery;
         const products = await Product.find({name:{$regex:searchQuery,$options:"i"}});
 
